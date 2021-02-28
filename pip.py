@@ -8,60 +8,60 @@ for i in range(len(lst)):
 print(dict)
 
 
-# #lesson 2
-# import  random
-# number = random.randint(0,20)
-# i = 0
-# while i <= 4:
-#    i = i + 1
-#    answer = input(" Угадай число :")
-#    if answer == "" or answer == " exit ":
-#       print(" Выход из прогрпммы :")
-#       break 
+#lesson 2
+import  random
+number = random.randint(0,20)
+i = 0
+while i <= 4:
+   i = i + 1
+   answer = input(" Угадай число :")
+   if answer == "" or answer == " exit ":
+      print(" Выход из прогрпммы :")
+      break 
 
-#    if not answer.isdigit():
-#       print(" Ввидите правильный число:")
-#       continue
+   if not answer.isdigit():
+      print(" Ввидите правильный число:")
+      continue
 
 
-#    answer = int(answer)
+   answer = int(answer)
 
-#    if answer == number:
-#       print('Класс! Вы угадали')
-#       break
+   if answer == number:
+      print('Класс! Вы угадали')
+      break
    
 
-#    elif answer < number:
-#       print(" Слишком мало:")
-#    else:  
-#       print(" Слишком много:")
-# print(" Ход закончили :")
+   elif answer < number:
+      print(" Слишком мало:")
+   else:  
+      print(" Слишком много:")
+print(" Ход закончили :")
 
-# #lesson 3
-# a = input('Vvedite slovo: ')
+#lesson 3
+a = input('Vvedite slovo: ')
 
-# if len(a) % 2 == 0 or len(a) < 5:
-#     print('error!')
-# elif len(a) >= 5:
-#     i = 5
-#     j = 1
-#     while True:
-#         if len(a) == i:
-#             print(a[j:-j])
-#             break
-#         i += 2
-#         j += 1
+if len(a) % 2 == 0 or len(a) < 5:
+    print('error!')
+elif len(a) >= 5:
+    i = 5
+    j = 1
+    while True:
+        if len(a) == i:
+            print(a[j:-j])
+            break
+        i += 2
+        j += 1
 
 
-# # lesson 4
+# lesson 4
 
-# a = 'Aidana'
-# b = 'Adilet'
-# c = ''
+a = 'Aidana'
+b = 'Adilet'
+c = ''
 
-# i = 0
-# while i <= (len(a) - 1):
-#     c += a[i]    
-#     c += b[i]    
-#     i += 1
-# print(c)
+i = 0
+while i <= (len(a) - 1):
+    c += a[i]    
+    c += b[i]    
+    i += 1
+print(c)
